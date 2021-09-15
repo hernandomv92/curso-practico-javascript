@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isoceles</title>
+</head>
+<body>
+    <header>
+        <h1>Calcular altura de un triangulo Isoceles</h1>
+    </header>
+    <section>
+        <h2>Formula</h2>
+        <p>Para calcular la altura de un triangulo isoceles <br>
+        usamos la formula h=√a^2 - (b/4)^2 pero sus <br>
+        lados deben ser congruentes.</p>
+        <form action="">
+            <label for="inputAltura">
+                Calcula la altura
+            </label>
+            <input type="number" id="inputLado" placeholder="lado">
+            <input type="number" id="inputBase" placeholder="base">
+            <button type="button" onclick="calcularAlturaIsoceles()">Calcular</button>
+           
+        </form>
+    </section>
+
+    <script src="./isoceles.js"></script>
+</body>
+</html>
